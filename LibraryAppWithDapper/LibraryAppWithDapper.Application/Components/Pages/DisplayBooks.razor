@@ -1,0 +1,25 @@
+﻿@using LibraryAppWithDapper.APIClient.Models.ApiModels
+<table class="table">
+	<tr>
+		<th>Title</th>
+		<th>Description</th>
+		<th>Author</th>
+		<th>IsAvailable</th>
+		<th>Action</th>
+	</tr>
+	@foreach(var book in books)
+	{
+		if (book.IsActive)
+		{
+			<BookDisplay book="book" LoadData="LoadData"></BookDisplay>
+		}
+	}
+</table>
+
+@code {
+	[Parameter]
+	public List<Book>? books{ get; set; }
+
+	[Parameter]
+	public EventCallback LoadData{ get; set; }
+}

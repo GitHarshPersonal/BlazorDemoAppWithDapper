@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.application\\components\\pages\\bookdisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|solutionrelative:libraryappwithdapper.application\\components\\pages\\bookdisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.application\\components\\pages\\updatebookform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|solutionrelative:libraryappwithdapper.application\\components\\pages\\updatebookform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4152EC-65AC-4BEF-9687-B1187B8AB96A}|LibraryAppWithDapper.API_Client\\LibraryAppWithDapper.API_Client.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.api_client\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4152EC-65AC-4BEF-9687-B1187B8AB96A}|LibraryAppWithDapper.API_Client\\LibraryAppWithDapper.API_Client.csproj|solutionrelative:libraryappwithdapper.api_client\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{428D2483-9FB2-47E5-A9FB-1944C353FC27}|LibraryAppWithDapper\\LibraryAppWithDapper.API.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428D2483-9FB2-47E5-A9FB-1944C353FC27}|LibraryAppWithDapper\\LibraryAppWithDapper.API.csproj|solutionrelative:libraryappwithdapper\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.application\\components\\pages\\addbookform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|solutionrelative:libraryappwithdapper.application\\components\\pages\\addbookform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.application\\components\\pages\\displaybooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|solutionrelative:libraryappwithdapper.application\\components\\pages\\displaybooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|d:\\web\\library blazor app\\libraryappwithdapper\\libraryappwithdapper.application\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3212428B-F2E2-45FF-9E13-B6967A1D876C}|LibraryAppWithDapper.Application\\LibraryAppWithDapper.Application.csproj|solutionrelative:libraryappwithdapper.application\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiClientService.cs",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.API_Client\\ApiClientService.cs",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.API_Client\\ApiClientService.cs",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.API_Client\\ApiClientService.cs",
+              "RelativeToolTip": "LibraryAppWithDapper.API_Client\\ApiClientService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAmwF4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:11:28.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LibraryAppWithDapper\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:10:32.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateBookForm.razor",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\UpdateBookForm.razor",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.Application\\Components\\Pages\\UpdateBookForm.razor",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\UpdateBookForm.razor",
+              "RelativeToolTip": "LibraryAppWithDapper.Application\\Components\\Pages\\UpdateBookForm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:51:44.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookDisplay.razor",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\BookDisplay.razor",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.Application\\Components\\Pages\\BookDisplay.razor",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\BookDisplay.razor",
+              "RelativeToolTip": "LibraryAppWithDapper.Application\\Components\\Pages\\BookDisplay.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T13:07:44.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBookForm.razor",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\AddBookForm.razor",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.Application\\Components\\Pages\\AddBookForm.razor",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\AddBookForm.razor",
+              "RelativeToolTip": "LibraryAppWithDapper.Application\\Components\\Pages\\AddBookForm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T13:28:57.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisplayBooks.razor",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\DisplayBooks.razor",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.Application\\Components\\Pages\\DisplayBooks.razor",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\DisplayBooks.razor",
+              "RelativeToolTip": "LibraryAppWithDapper.Application\\Components\\Pages\\DisplayBooks.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T17:49:36.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "LibraryAppWithDapper.Application\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Web\\Library Blazor App\\LibraryAppWithDapper\\LibraryAppWithDapper.Application\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "LibraryAppWithDapper.Application\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T16:48:30.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

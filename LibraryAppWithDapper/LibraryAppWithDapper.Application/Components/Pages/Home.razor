@@ -1,0 +1,37 @@
+﻿@page "/"
+@using LibraryAppWithDapper.APIClient.Models.ApiModels
+@using LibraryAppWithDapper.API_Client
+
+@inject ApiClientService apiClient
+
+<button @onclick="@(()=>{displayAddBookForm = true;})">Add Book</button>
+@if (displayAddBookForm)
+{
+	<AddBookForm displayAddBookForm="displayAddBookForm" LoadData="LoadData"></AddBookForm>
+}
+
+@if(books is null)
+{
+	<span>No books to display</span>
+}
+else
+{
+	<DisplayBooks books="books" LoadData="LoadData"></DisplayBooks>
+}
+
+@code{
+	private List<Book>? books;
+	private bool displayAddBookForm = false;
+
+	private async Task LoadData()
+	{
+		books = await apiClient.GetBooksAsync();
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		await LoadData();
+
+		await base.OnInitializedAsync();
+	}
+}

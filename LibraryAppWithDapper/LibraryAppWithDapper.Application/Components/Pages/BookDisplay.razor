@@ -1,0 +1,40 @@
+﻿@using LibraryAppWithDapper.APIClient.Models.ApiModels
+@using LibraryAppWithDapper.API_Client
+
+@inject ApiClientService apiClient
+@inject NavigationManager navManager
+
+<tr>
+	<td>@book.Title</td>
+	<td>@book.Description</td>
+	<td>@(author.Name)</td>
+	<td>@book.IsAvailable</td>
+	<td>
+		<button class="btn btn-primary" style="background-color: deepskyblue" @onclick="handleDelete">Delete</button>
+		<button class="btn btn-primary" style="background-color: deepskyblue" @onclick="@(()=>{navManager.NavigateTo("/updateBook");})">Edit</button>
+	</td>
+</tr>
+
+@code {
+	[Parameter]
+	public Book book{ get; set; }
+
+	[Parameter]
+	public EventCallback LoadData{ get; set; }
+
+	private Author author = new Author();
+	private bool displayUpdateBookForm = false;
+
+	protected override async Task OnParametersSetAsync()
+	{
+		author = await apiClient.GetAuthorByIdAsync(book.AuthorId);
+		await base.OnParametersSetAsync();
+	}
+
+	private async void handleDelete()
+	{
+		book.IsActive = false;
+		await apiClient.UpdateBookAsync(book);
+		await LoadData.InvokeAsync();
+	}
+}

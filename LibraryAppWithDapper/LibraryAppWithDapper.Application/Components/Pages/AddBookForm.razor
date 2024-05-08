@@ -1,0 +1,41 @@
+﻿@using LibraryAppWithDapper.APIClient.Models.ApiModels
+@using LibraryAppWithDapper.API_Client
+
+@inject ApiClientService apiClient
+
+<EditForm Model="book" OnSubmit="HandleSubmit">
+	<input placeholder="Title" @bind="book.Title"/>
+	<input placeholder="Description" @bind="book.Description" />
+	<input placeholder="Author Name" @bind="author.Name" />
+	<input placeholder="Author Description" @bind="author.Description" />
+	<input placeholder="Is Available" type="checkbox" @bind="book.IsAvailable" />
+	<button type="submit">Submit</button>
+</EditForm>
+
+@code {
+	private Book book = new Book();
+	private Author author = new Author();
+	private int resultAuthorId;
+
+	[Parameter]
+	public bool displayAddBookForm{ get; set; }
+
+	[Parameter]
+	public EventCallback LoadData{ get; set; }
+
+	private async Task HandleSubmit()
+	{
+		book.IsActive = true;
+		book.UpdatedOn = DateTime.Now;
+		author.IsActive = true;
+		author.UpdatedOn = DateTime.Now;
+		resultAuthorId = await apiClient.SaveAuthorAsync(author);
+		book.AuthorId = resultAuthorId;
+		await apiClient.SaveBookAsync(book);
+		book = new Book();
+		author = new Author();
+		resultAuthorId = 0;
+		displayAddBookForm = false;
+		await LoadData.InvokeAsync();
+	}
+}

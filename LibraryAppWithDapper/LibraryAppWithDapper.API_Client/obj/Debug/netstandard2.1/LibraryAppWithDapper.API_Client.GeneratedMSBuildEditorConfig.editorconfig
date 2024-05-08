@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = LibraryAppWithDapper.API_Client
+build_property.ProjectDir = D:\Web\Library Blazor App\LibraryAppWithDapper\LibraryAppWithDapper.API_Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
